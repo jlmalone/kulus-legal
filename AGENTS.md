@@ -4,7 +4,7 @@ This repository contains the standalone public legal pages for Kulus. It is stat
 
 ## Read first
 
-Read this file, the README, and `/Users/joseph.malone/ios_code/hamumu-ios/ECOSYSTEM.md` when a change affects shared Kulus statements. The organiser Kulus handoff owns current project status.
+Read this file, the README, and `<HOME_ROOT>/ios_code/hamumu-ios/ECOSYSTEM.md` when a change affects shared Kulus statements. The organiser Kulus handoff owns current project status.
 
 ## Working rules
 
@@ -17,3 +17,5 @@ Read this file, the README, and `/Users/joseph.malone/ios_code/hamumu-ios/ECOSYS
 ## Completion
 
 There is no build step. Validate changed HTML with an available local checker or focused inspection, run `git diff --check`, then commit only intended files and push the configured branch when safe.
+
+`<HOME_ROOT>` means the current user's verified absolute home directory. Resolve it before use.
